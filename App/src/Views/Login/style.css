@@ -1,0 +1,118 @@
+::root {
+  --primary-color: #6b46c1;
+  --secondary-color: #4299e1;
+  --tertiary-color: #f9fafb;
+  --quaternary-color: #f7fafc;
+  --quinary-color: #e2e8f0;
+  --senary-color: #edf2f7;
+  --septenary-color: #cbd5e0;
+  --octonary-color: #a0aec0;
+  --nonary-color: #718096;
+  --denary-color: #4a5568;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 20px;
+  position: relative;
+}
+.login-img {
+  width: 954px;
+  height: 598px;
+}
+
+.login-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 60px 60px 20px 20px;
+  object-fit: cover;
+}
+
+.login-form {
+  width: 654px;
+  height: 479px;
+  padding: 20px;
+  border-radius: 50px 0px 0px 50px;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-form-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-header {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.sub {
+  font-size: 1rem;
+  color: #a0aec0; /* Soft gray */
+}
+.login-form-btn{
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-btn {
+  height: 40px;
+  position: relative;
+  z-index: 1; /* Above stars */
+  padding: 12px 24px;
+  background: linear-gradient(to right, #6b46c1, #4299e1); /* Cosmic gradient */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+.login-form-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.google-login {
+  width: 300px;
+  height: 30px;
+  background: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: outfit;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 400;
+  color: rgba(104, 88, 121, 1);
+  border: #b3abbc 1px solid;
+  padding: 5px 0;
+}
+.google-login:hover {
+  cursor: pointer;
+}

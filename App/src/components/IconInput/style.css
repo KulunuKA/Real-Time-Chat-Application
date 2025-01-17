@@ -1,0 +1,26 @@
+.icon-input {
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #b3abbc;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.icon-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.icon-input input::placeholder {
+  color: #ccc;
+}
+
+.icon-input i {
+  color: #414040;
+}
