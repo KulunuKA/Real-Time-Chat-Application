@@ -1,4 +1,4 @@
-Real-Time Chat Application
+#Real-Time Chat Application
 A real-time chat application built with React, Node.js, Socket.IO, and MongoDB.
 
 Key Features:
